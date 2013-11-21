@@ -1,0 +1,11 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+	<content><![CDATA[
+{% group_perm_check ${1:ogroup} "manage group" %}
+    ${2:$SELECTION}
+{% end_group_perm_check %}
+]]>	</content>
+    <tabTrigger>group</tabTrigger>
+    <scope>text.html.django.bling</scope>
+    <description>groupperm tag</description>
+</snippet>

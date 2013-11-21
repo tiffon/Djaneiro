@@ -1,0 +1,7 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+	<content><![CDATA[{% var $1 %}${2:$SELECTION}{% endvar %}]]></content>
+    <tabTrigger>var</tabTrigger>
+    <scope>text.html.django.bling</scope>
+    <description>single line blockvar</description>
+</snippet>

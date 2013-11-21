@@ -1,0 +1,7 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+	<content><![CDATA[{% include "common/span_user_status_inc.html" with which_user=$1 %}]]></content>
+    <tabTrigger>userstat</tabTrigger>
+    <scope>text.html.django.bling</scope>
+    <description>include user status span</description>
+</snippet>
