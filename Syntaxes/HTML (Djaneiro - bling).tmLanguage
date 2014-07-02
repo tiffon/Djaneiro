@@ -723,7 +723,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>{{[!#^/>={&amp;?]?(# |\?| )</string>
+					<string>{{[!#^/>={&amp;?]?(# |\?)?</string>
 					<key>captures</key>
 					<dict>
 						<key>0</key>
@@ -733,7 +733,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>((?&lt;=\?)| )}}</string>
+					<string>((?&lt;=\?)| )?}}</string>
 					<key>name</key>
 					<string>storage.type.variable.django</string>
 					<key>patterns</key>
