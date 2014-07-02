@@ -276,7 +276,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;|[^&gt;]*?type="text/(?:html|template)")</string>
+			<string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;|[^&gt;]*?type="text/(?:\S+-)?(?:html|template)")</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
