@@ -723,7 +723,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>{{[!#^/>={&amp;?]?(# |\?| )</string>
+					<string>{{[!#^/>={&amp;?]?(#|\?)?</string>
 					<key>captures</key>
 					<dict>
 						<key>0</key>
@@ -768,6 +768,29 @@
 						<dict>
 							<key>include</key>
 							<string>#django_template_filter</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>`\?{0,2}=?</string>
+					<key>captures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>entity.tag.tagbraces.django</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>`</string>
+					<key>name</key>
+					<string>storage.type.templatetag.django</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>source.js</string>
 						</dict>
 					</array>
 				</dict>
